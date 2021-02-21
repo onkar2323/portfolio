@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Truculenta:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Onkar Setia</title>
+</head>
+<body>
+    <!-- toggle button work-in-progress -->
+   <!--  <div>
+        <label id="switch" class="switch">
+            <input type="checkbox" onclick="toggle()">
+            <span class="slider round"></span>
+          </label>
+    </div> -->
+    <div id="info"><img class="img" src="logo.png" alt="">
+        <div class="info-name">Onkar Setia</div>
+        <div class="info-desig">Frontend Developer</div>
+        <div class="info-socials">
+            <a href="#" ><i class="fa fa-instagram "></i></a>
+            <a href="#" ><i class="fa fa-github "></i></a>
+            <a href="#" ><i class="fa fa-twitter "></i></a>
+            <a href="#" ><i class="fa fa-linkedin "></i></a>
+        </div>
+        <div id="info-create">Created With < 3 . </div>
+        <div id="info-veiw"><a href="#">Veiw on Github</a> </div>
+    </div>
+    <div id="tags">
+        <a href="#" class="links" onclick="disappear('contact');disappear('skills');disappear('projects');disappear('experience'); appear('about')"> <i class="fa fa-info-circle "></i></a>
+        <a href="#" class="links" onclick="disappear('about');disappear('contact');disappear('projects');disappear('experience'); appear('skills')"> <i class="fa fa-bookmark "></i></a>
+        <a href="#" class="links" onclick="disappear('about');disappear('skills');disappear('contact');disappear('experience'); appear('projects')"> <i class="fa fa-clone "></i></a>
+        <a href="#" class="links" onclick="disappear('about');disappear('skills');disappear('projects');disappear('contact'); appear('experience')"> <i class="fa fa-sliders "></i></a>
+        <a href="#" class="links" onclick="disappear('about');disappear('skills');disappear('projects');disappear('experience'); appear('contact')"> <i class="fa fa-phone "></i></a>
+        
+        
+        
+    </div>
+    <div id="details">
+        <div id="about" >
+            <h1>ABOUT ME</h1>
+            <h2>Hello, I'm Onkar!</h2>
+            <p>A front-end developer from Rajasthan, India.
+                I've been creating on the web for some time now and have become pretty good at it.
+                I hang out on <a href="#" class="links">Twitter</a> and would love to meet you!
+            </p>
+            <hr>
+            <h2>A little more...</h2>
+            <p>I’m super passionate about design, development, and business. From a technical standpoint, I spend most of my time working with JavaScript, CSS3, HTML5. New and open source web technologies make me super excited and I can’t wait to see what is to come of the web in the next few years.
+                     <br><br>
+
+                I’m persuing my Bachelor from Central Universty of Haryana’s Computer Science Enginering (CSE) .
+                    <br><br>
+                
+                When not creating websites and web applications, I love to spend my time with my family and friends. In my free time I like to write poems, and dance. I'm also a bookworm and obsessed with movies.
+                        <br><br>
+                
+                If you have a question about me, you can send an <a href="#" class="links">Email</a> or DM me on <a href="#" class="links">Twitter</a>
+            </p>
+            
+                
+        </div>
+        <div id="skills">
+            <h1>SKILLSET & INTERESTS</h1>
+            <h2>Languages:</h2>
+            <p>JavaScript <br>
+
+                CSS3 <br>
+                
+                HTML5 <br>
+                
+                
+            </p>
+            <hr>
+            <h2>Others:</h2>
+            <p>
+                Git <br>
+
+                Git Flow <br>
+
+                TDD <br>
+
+                CI/CD <br>
+
+                Design Patterns <br>
+
+                Pair Programming <br>
+
+                Agile software development <br>
+
+                Netlify
+
+            </p>
+            
+        </div>
+        <div id="projects">
+            <h1>PROJECTS</h1>
+            <h2>TimerOut</h2>
+            <a href="https://github.com/onkar2323/TimerOut" class="links">Veiw on Github</a>
+            <p>This was one of my first builds as a web developer. This web page is a timer, which is made using html, css and javascript.
+                I started learnt javascript by making this web page.
+            </p>
+            <h2>InFuze</h2>
+            <a href="https://github.com/Rick10101221/infuze" class="links">Veiw on Github</a>
+            <p>This is one of the applications that I built with a team . My contributions to this project were the react based UI . 
+                I made this application for a hackathon that I participated as a noobie but learned a lot of things, it was my first time working with react native, 
+                and I think I did well as we won in a category.
+            </p>
+            <h2>Mysuru Tourism</h2>
+            <a href="https://github.com/onkar2323/DSC_WOW-KingCoders" class="links">Veiw on Github</a>
+            <p>This is also a team based project that i built for a Hackathon. In this Project i created whole of the Frontend and made it responsive.
+                We Were unable to win in the track but had loads of fun creating this project.
+            </p>
+        </div>
+        <div id="experience">
+            <h1>WORK EXPERIENCE</h1>
+            <hr>
+            <h1>EDUCATION</h1>
+            <h2>Bachelor's </h2>
+            <h3>July 2019 - present</h3>
+            <p>I am currently persuing my bachelors degree from Central University of Haryana.</p>
+            <h2>High School</h2>
+            <h3>Passed in march 2019</h3>
+            <p>I completed my high school with 75% marks in PCM from Little Flower Public School, Pilibangan. </p>
+
+        </div>
+        <div id="contact" >
+            <h1>CONTACT ME</h1>
+            <h2>Hey,</h2>
+            <p>If you would like to get in touch, please shoot me an email at <a href="https://mail.google.com/mail/u/0/#inbox?compose" class="links">Onkarsetia23@gmail.com</a> and I’ll try get back to you within a day or so!</p>
+            <p>I am open for new opportunities and always ready to help. I would always be ready to respond within a day </p>
+            <p>If you have any projests for me, feel free to contact me. < <span style="font-size:150%;color:red;"> &hearts; </span> > </p>
+        </div>
+        
+
+    </div>
+   
+</body>
+<script>
+    function disappear(id){
+        document.getElementById(id).style.display = "none";
+       
+    }
+    function appear(id){
+        document.getElementById(id).style.display = "block";
+    }
+    /* function toggle(){
+        if(document.getElementById("switch").input = "checked"){
+            document.body.style.backgroundColor = "var(--primmary-color)";
+            document.getElementById("info").style.backgroundColor = "var(--purple)";
+            document.getElementById("info").style.Color = "var(--secondary-color)";
+            document.getElementById("details").style.backgroundColor = "var(--light-gray)";
+        }else if(document.getElementById("switch").input = "none"){
+            document.body.style.backgroundColor = "var(--secondary-color)";
+            document.getElementById("info").style.backgroundColor = "var(--blue)";
+            document.getElementById("info").style.Color = "var(--primmary-color)";
+            document.getElementById("details").style.backgroundColor = "var(--dark-gray)";
+        }
+        
+    } */
+    
+</script>
+</html>
